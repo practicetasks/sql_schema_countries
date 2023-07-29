@@ -13,7 +13,7 @@ create table countries
     id            serial8 primary key,
     name          varchar(50) not null,
     continent_id int8        not null,
-    foreign key (continents_id) references continents (id)
+    foreign key (continent_id) references continents (id)
 );
 
 create table cities
