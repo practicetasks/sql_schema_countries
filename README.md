@@ -5,8 +5,8 @@
 create table continents
 (
     id   serial8 primary key,
-    name varchar(50) not null,
-)
+    name varchar(50) not null
+);
 
 create table countries
 (
